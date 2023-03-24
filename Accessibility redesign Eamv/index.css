@@ -1,0 +1,141 @@
+/* Header */
+/* Set the text color to white */
+.navbar-nav .nav-item .nav-link,
+.form-control {
+  color: #fff;
+}
+
+/* Set the background color for the header */
+header {
+  background-color: rgb(89, 84, 81);
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+/* Set the navbar-brand text color */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Set the navbar-nav text color and hover effect */
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.2s ease-in-out;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: rgb(244, 152, 0);
+}
+
+/* Set the search button color and hover effect */
+.btn-outline-success {
+  color: rgb(244, 152, 0);
+  border-color: rgb(244, 152, 0);
+}
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: rgb(214, 119, 0);
+  border-color: rgb(214, 119, 0);
+}
+
+/* container */
+		.container {
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 50%;
+  background-color: rgb(89,84,81);
+  padding: 50px;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 70px));
+}
+
+.box h1 {
+  color: white;
+}
+
+.img-responsive {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  background-color: rgb(244, 152, 0);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  margin: 20px auto 0;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgb(209, 130, 0);
+}
+
+.full-height {
+  height: 70vh;
+}
+
+.mask {
+  height: 70vh;
+}
+    
+    
+
+
+
+
+/* Footer */
+footer {
+  background-color: rgb(89, 84, 81);
+  padding: 40px 0;
+}
+
+img {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(244, 152, 0);
+}
+
+ul.list-unstyled {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+ul.list-unstyled li {
+  margin-right: 10px;
+}
+
+ul.list-unstyled li:last-child {
+  margin-right: 0;
+}
+
+
+
+
+
+
+
